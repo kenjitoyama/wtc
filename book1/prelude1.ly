@@ -8,6 +8,7 @@
 \version "2.16.0"
 
 \header {
+  composer = "J.S. Bach"
   title = "Prelude 1"
   opus = "BWV 846"
 }
