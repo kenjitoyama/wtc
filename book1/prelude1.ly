@@ -29,10 +29,6 @@ This file is part of wtc.
 }
 
 upper = \relative c'' {
-  \clef treble
-  \key c \major
-  \time 4/4
-
   r8 g16     c   e   g,   c   e   r8 g,16   c   e   g,   c   e
 
   r8 a,16    d   f   a,   d   f   r8 a,16   d   f   a,   d   f
@@ -157,48 +153,48 @@ tenor = \relative c' {
 }
 
 bass = \relative c {
-     c'2 c
-     c2  c
-     b2  b
-     c2  c
-     % bar 5
-     c2 c
-     c2 c
-     b2 b
-     b2 b
-     a2 a
-     % bar 10
-     d,2 d
-     g2  g
-     g2  g
-     f2  f
-     f2  f
-     % bar 15
-     e2  e
-     e2  e
-     d2  d
-     g,2 g
-     c2  c
-     % bar 20
-     c2   c
-     f,2  f
-     fis2 fis
-     aes2 aes
-     g2   g
-     % bar 25
-     g2 g
-     g2 g
-     g2 g
-     g2 g
-     g2 g
-     % bar 30
-     g2  g
-     g2  g
-     c,2 c
-     c2~ c
-     c2~ c
-     % bar 35
-     c1 \fermata
+  c'2 c
+  c2  c
+  b2  b
+  c2  c
+  % bar 5
+  c2 c
+  c2 c
+  b2 b
+  b2 b
+  a2 a
+  % bar 10
+  d,2 d
+  g2  g
+  g2  g
+  f2  f
+  f2  f
+  % bar 15
+  e2  e
+  e2  e
+  d2  d
+  g,2 g
+  c2  c
+  % bar 20
+  c2   c
+  f,2  f
+  fis2 fis
+  aes2 aes
+  g2   g
+  % bar 25
+  g2 g
+  g2 g
+  g2 g
+  g2 g
+  g2 g
+  % bar 30
+  g2  g
+  g2  g
+  c,2 c
+  c2~ c
+  c2~ c
+  % bar 35
+  c1 \fermata
 }
 
 \score {
